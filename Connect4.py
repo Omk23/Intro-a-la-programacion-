@@ -25,7 +25,7 @@ def print_board_circles(height, width, x, y, cursor, radio):
     
     # Escribe los números de las columnas.
     cursor.penup()#No pinta
-    cursor.setpos(x-radio*2,y-radio) 
+    cursor.setpos(x-radio*2,y-radio)#la posicion de los numeros 
     cursor.pendown()#pinta
     cursor.pencolor("yellow")
     for i in range (7):
