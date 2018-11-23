@@ -22,12 +22,14 @@ def print_matriz(matriz):  ##Funcion imprimir la matriz
         
 matriz_crear(matriz)
 print_matriz(matriz)
-
+"""
 contador = 0
 for x in range(len(matriz)):
     for y in range(len(matriz[x])-3) :
-        if matriz[x][y] == 1 and matriz[x][y+1] == 0 and matriz [i][j+3] == 1:
-            contador += 1
+        if matriz[x][y] == 1 and matriz[x][y+1] == 1 and matriz [i][j+2] == 1 and matriz [i][j+3]:
+           (or matriz[x][y] == 0 and matriz[x][y+1] == 0 and matriz [i][j+2] == 0 and matriz [i][j+3]:)
+           contador += 1
+"""
             
 
 def ficha (cursor, radio, x1, y1, color):
@@ -174,7 +176,7 @@ if opcion == 1:
             jugador = 0 # lo mismo pero para volver a jugardor "1"
 
 ########## Juego ########
-
+#matriz[fila(y1)][posicion-1]= jugador 
 
 turtle.done() 
 try:
